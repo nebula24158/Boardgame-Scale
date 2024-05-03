@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+
+}
+
+.red{
+    background-color: rgb(255, 36, 44);
+}
+
+.blue{
+    background-color: rgb(81, 153, 249);
+}
+
+.green{
+    background-color: rgb(62, 246, 62);
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 75px;
+}
+h2{
+    font-size: 30px;
+}
+#Button{
+    height: 40px;
+}
