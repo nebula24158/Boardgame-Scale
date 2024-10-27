@@ -70,6 +70,14 @@
         border-width: 4px 0 0;
         background: none;
         }
+        .container div > div {
+        text-align: center;
+        margin-bottom: 10px;
+        }
+        label {
+            font-size: 50px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -78,12 +86,18 @@
         <button id="Button" class = "button-19">Next Round</button>
     </div>
 
-    <div class = "container">
-        <div class = "red flex-center">
-            <h1 id = "text1">text1</h1>
+    <div class="container">
+        <div class="red flex-center">
+            <div>
+                <h1 id="text1">text1</h1>
+                <label id="first-acting"></label>
+            </div>
         </div>
-        <div class = "blue flex-center">
-            <h1 id = "text2">text2</h1>
+        <div class="blue flex-center">
+            <div>
+                <h1 id="text2">text2</h1>
+                <label id="second-acting"></label>
+            </div>
         </div>
     </div>
    <script src="./index.js"></script>
